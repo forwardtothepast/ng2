@@ -7,7 +7,7 @@
     "description": "Leaf rake with 48-inch wooden handle.",
     "price": 19.95,
     "starRating": 4,
-    "imageUrl": "http://openclipart.org/image/300px/svg_to_png/26215/Anonymous_Leaf_Rake.png"
+    "imageUrl": "http://172.19.199.129:8081/images/Anonymous_Leaf_Rake.jpg"
   },
   {
     "productId": 2,
@@ -17,7 +17,7 @@
     "description": "15 gallon capacity rolling garden cart",
     "price": 32.99,
     "starRating": 3,
-    "imageUrl": "http://openclipart.org/image/300px/svg_to_png/58471/garden_cart.png"
+    "imageUrl": "http://172.19.199.129:8081/images/garden_cart.jpg"
   },
   {
     "productId": 3,
@@ -27,7 +27,7 @@
     "description": "Curved claw steel hammer",
     "price": 8.9,
     "starRating": 5,
-    "imageUrl": "http://openclipart.org/image/300px/svg_to_png/73/rejon_Hammer.png"
+    "imageUrl": "http://172.19.199.129:8081/images/rejon_Hammer.jpg"
   },
   {
     "productId": 4,
@@ -37,7 +37,7 @@
     "description": "15-inch steel blade hand saw",
     "price": 11.55,
     "starRating": 4,
-    "imageUrl": "http://openclipart.org/image/300px/svg_to_png/27070/egore911_saw.png"
+    "imageUrl": "http://172.19.199.129:8081/images/egore911_saw.png"
   },
   {
     "productId": 5,
@@ -47,7 +47,7 @@
     "description": "Standard two-button video game controller",
     "price": 35.95,
     "starRating": 2,
-    "imageUrl": "http://openclipart.org/image/300px/svg_to_png/120337/xbox-controller_01.png"
+    "imageUrl": "http://172.19.199.129:8081/images/xbox-controller_01.png"
   },
   {
     "productId": 6,
@@ -57,6 +57,6 @@
     "description": "Standard two-button video game controller",
     "price": 35.95,
     "starRating": 2,
-    "imageUrl": "http://openclipart.org/image/300px/svg_to_png/120337/xbox-controller_01.png"
+    "imageUrl": "http://172.19.199.129:8081/images/xbox-controller_01.png"
   }
 ]

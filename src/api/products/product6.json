@@ -6,5 +6,5 @@
   "description": "Standard two-button video game controller",
   "price": 35.95,
   "starRating": 2,
-  "imageUrl": "http://openclipart.org/image/300px/svg_to_png/120337/xbox-controller_01.png"
+  "imageUrl": "http://172.19.199.129:8081/images/xbox-controller_01.png"
 }

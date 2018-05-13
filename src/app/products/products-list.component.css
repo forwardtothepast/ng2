@@ -1,0 +1,28 @@
+thead {
+  color: #337AB7;
+}
+.panel {
+  margin: 0.1rem;
+  text-align: left;
+}
+.panel-heading {
+  background-color: #337AB7;
+  margin-bottom: 0rem;
+  padding: 0rem;
+  height: 3rem;
+  font-size: 2rem;
+  font-style: normal;
+}
+
+.panel-body {
+  background-color: burlywood;
+}
+
+.input {
+  background-color: white;
+}
+
+img {
+height: 2rem;
+width: 2.5rem;
+}

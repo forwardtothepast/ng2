@@ -1,0 +1,30 @@
+.crop {
+  overflow: hidden;
+}
+
+div {
+  cursor: pointer;
+}
+
+.glyphicon-star {
+  font-size: 12px;
+  color:green;
+  &.half {
+    position: relative;
+    &:before {
+      position: relative;
+      z-index: 9;
+      width: 80%;
+      display: block;
+      overflow: hidden;
+    }
+    &:after {
+      content: '\e006';
+      position: absolute;
+      z-index: 8;
+      color: #bdc3c7;
+      top: 0;
+      left: 0;
+    }
+  }
+}

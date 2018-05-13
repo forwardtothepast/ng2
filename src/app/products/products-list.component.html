@@ -1,0 +1,49 @@
+<div class='panel panel-primary'>
+  <div class='panel-heading'>
+      {{pageTitle}}
+  </div>
+
+  <!-- Filter the Products   -->
+  <div class='panel-body'>
+      <div class='row'>
+          <div class='col-md-2'>Filter by:</div>
+          <div class='col-md-4'>
+              <input class='input' type='text'  [(ngModel)]='filteredText'/>
+          </div>
+          <div>
+              Filtered by: {{filteredText}}
+          </div>
+      </div>
+      <div class='table-responsive'>
+          <table class='table'>
+              <thead>
+                  <tr>
+                      <th>
+                          <button class='btn btn-primary' (click)='toggleShowImageHandler()' >
+                              {{imageButtonTitle}}
+                          </button>
+                      </th>
+                      <th>Product</th>
+                      <th>Code</th>
+                      <th>Available</th>
+                      <th>Price</th>
+                      <th>5 Star Rating</th>
+                  </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor='let product of productListFilter'>
+                    <td>
+                      <img [src] = 'product.imageUrl' *ngIf='showImage' [title]='product.description'/>
+                    </td>
+                    <td> <a [routerLink] = "['/products', product.productId]">{{ product.productName }}</a></td>
+                    <td>{{ product.productCode | lowercase | convertToSpaces: '-' }}</td>
+                    <td>{{ product.releaseDate }}</td>
+                    <td>{{ product.price  | currency:'USD':true:'1.2-2' }}</td>
+                    <td><star [rating] = 'product.starRating'
+                      (ratingClicked)='onRatingClicked($event)'></star></td>
+                </tr>
+            </tbody>
+          </table>
+      </div>
+  </div>
+</div>

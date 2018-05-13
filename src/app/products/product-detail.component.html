@@ -1,0 +1,27 @@
+<div class='panel panel-primary' *ngIf='product'>
+  <div class='panel-heading'>
+    Product Name: {{ product.productName }}
+  </div>
+  <div class='panel-body'>
+    <div class='row'>
+      Product Code: {{ product.productCode }}
+    </div>
+    <div class='row'>
+      Description: {{ product.description }}
+    </div>
+    <div class='row'>
+      Product Price: {{ product.price }}
+    </div>
+    <div class='row'>
+      Release Date: {{ product.releaseDate }}
+    </div>
+    <div class='row'>
+      <img [src]='product.imageUrl'>
+    </div>
+  </div>
+  <button class="button"
+          title='Back' (click)='onBack()'>
+    Back
+  </button>
+
+</div>
